@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+    overflow: hidden;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+header{
+    padding:0;
+    margin:0;
+}
+.slider {
+    background: url("http://elzero.net/demos/courses/Preview2HtmlLv1/images/slider.jpg") no-repeat;
+    background-size: cover;
+    height: 36em;
+    padding:0;
+    margin:0;
+}
+.contt{
+    padding-top: 10em;
+    text-align: center;
+}
+.slider h1{
+    color: #fff;
+    margin: 0 auto;
+    border-bottom: .08em solid #fff;
+    border-top: .08em solid #fff;
+    font-weight: 700;
+    font-size: 3em;
+    display: inline;
+}
+.contt button {
+    color:#fff;
+    display: block;
+    background-color: transparent;
+    padding: .9em 2.3em;
+    margin: 1.7em auto;
+    font-weight: 700;
+}
+nav {
+    background-color: #252F31;
+    overflow: hidden;
+    padding: .75em 0;
+}
+.logo{
+    float:left;
+    margin: .5em 0 0 0;
+    color: #fff;
+}
+.logo span{
+    color:#2ECC71;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    float: right;
+}
+nav ul li {
+    float: left;
+    padding-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    color: #2ECC71;
+    transition: .6s ease;
+}
+nav ul li.active a{
+    color: #2ECC71;
+}
+.FirstRow{
+    background-color: #fff;
+    margin-top: 3em;
+}
+.FirstRow .container article {
+    width: 33%;
+    float: left;
+    color:#777777;
+    line-height: 1.7;
+}
+.about {
+    background-color: #F2F2F2;
+    margin-top:3em;
+    overflow: hidden;
+    color: #777777;
+}
+.about img {
+    float: left;
+    width: 40%;
+}
+.right-about {
+    float: left;
+    padding-left: 2em;
+    width: 60%;
+    line-height: 1.7;
+}
+.features div  {
+    float: left;
+    width: 50%;
+}
+.features h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.web p, .graphic p, .seo p, .marketing p {
+ width: 80%;
+}
+.skills {
+    overflow: hidden;
+    margin:3em 0;
+}
+.left , .progress {
+    width: 50%;
+    color: #777777;
+    line-height: 1.7;
+    float: left;
+}
+.progress div {
+    background-color: #F2F2F2;
+}
+.progress span{
+    background-color: #2DCC70;
+    width: 83%;
+    display: inline-block;
+    text-align: right;
+    font-weight: 700;
+    color: #fff;
+}
+#contact, .download{
+    background-color: white;
+    color: #2DCC70;
+    border: 3px solid #2DCC70;
+    padding: .6rem 1.8rem;
+    font-weight: 700;
+}
+.resume{
+    overflow: hidden;
+    background-color: #F2F2F2;
+    color: #888888;
+    line-height: 1.7;
+    text-align: center;
+    padding:3em 0;
+}
+.resume h2{
+    color: #777777;
+}
+.my-education{
+    color:#777777;
+    margin-top: 3em;
+    padding-bottom: 3em;
+    overflow: hidden;
+}
+.education,.exp{
+    width: 48%;
+    float: left;
+    line-height: 1.7;
+}
+.exp{
+    padding-left: 5em;
+}
+.bold{
+    font-weight: bold;
+}
+.num{
+    color: white;
+    background-color: #2DCC70;
+    padding:.1em .7em;
+    font-weight: 100;
+    display: inline-block;
+    margin-bottom: 2em;
+}
+.cit{
+    margin-top: 3em;
+}
+.my-work{
+    color:#777777;
+    margin-top: 3em;
+    padding-bottom: 3em;
+    overflow: hidden;
+    line-height: 1.7;
+}
+.work{
+    width: 50%;
+    float: left;
+}
+.quote{
+    background-color: #F2F2F2;
+    padding: 3em 0 1.5em 0;
+    text-align: center;
+
+}
+.quote q {
+    font-style: italic;
+    font-weight: 700;
+    color:#888;
+    line-height: 1.7;
+    font-size: 110%;
+}
+.quote h3{
+    color:#777;
+}
+.quote ul{
+    margin-right: 2.5em;
+}
+.quote ul li{
+        width: 20px;
+        height: 20px;
+        border: 2px solid #2DCC70;
+        display: inline-block;
+        cursor: pointer;
+}
+.quote ul li.active, .quote ul li:hover{
+    background-color: #2DCC70;
+    transition: .6s ease;
+}
+
+.portfolio{
+    color:#777;
+    line-height: 1.5em;
+    text-align: center;
+}
+.portfolio img {
+    padding: 3px;
+    border: 1px solid #CCCCCC;
+    margin:1em  .55em;
+}
+footer{
+    background-color:#252F31;
+    overflow: hidden;
+    padding-bottom:5em;
+}
+.contact, .form{
+    float: left;
+    width: 50%;
+    padding-top: 4em;
+}
+.contact h2{
+    color: white;
+}
+.contact p{
+    color: #6A6E71;
+}
+.contact span{
+    color: white;
+    font-weight: 700;
+}
+.form{
+    padding-left:3em;
+    color:#BCC2C5
+}
+.form label {
+    display: block;
+    margin:6px;
+}
+.form input {
+    background-color: #4B5557;
+    width:80%;
+    height: 2.3em;
+    border: none;
+    margin-bottom: 1em;
+}
+.form input:last-child{
+    height: 20em;
+}
+.cont{
+    background-color: #191E22;
+    padding: .6em 1.2em;
+    color: white;
+    margin-top:1em;
+    border:none;
+}
+.final{
+    padding:2em;
+    background-color:#191E22;
+    overflow: hidden;
+}
+.final .lef {
+    float: left;
+    color: white;
+    line-height: 1.7;
+}
+.final .righ{
+    float: right;
+}
+.righ img {
+    width:2.2em;
+    height:2.2em;
+    margin: 0 .1em;
+    padding:0;
+}
